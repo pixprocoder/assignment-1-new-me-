@@ -59,3 +59,36 @@ header {
   cursor: pointer;
   color: white;
 }
+
+/* main styles */
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* Feature section styles */
+.feature {
+  display: flex;
+  gap: 90px;
+  margin-top: 120px;
+  align-items: center;
+  font-family: "Raleway", sans-serif;
+}
+.feature img {
+  background: #dadedf;
+  border-radius: 5px;
+}
+.feature-title {
+  font-weight: 700;
+  font-size: 40px;
+  font-family: "Montserrat", sans-serif;
+}
+.feature-description {
+  margin: 18px 0;
+  line-height: 26px;
+}
+.feature ul li {
+  list-style: none;
+  text-align: left;
+  margin-bottom: 10px;
+}
