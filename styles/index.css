@@ -92,3 +92,29 @@ main {
   text-align: left;
   margin-bottom: 10px;
 }
+
+/* Plan section styles  */
+.my-plan {
+}
+.plan-container {
+  display: flex;
+  gap: 50px;
+}
+.plan {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+}
+.plan-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  margin: 16px 0;
+}
+.section-title {
+  text-align: center;
+  margin-top: 110px;
+  margin-bottom: 50px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+}
