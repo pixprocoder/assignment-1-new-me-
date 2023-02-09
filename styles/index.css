@@ -94,8 +94,6 @@ main {
 }
 
 /* Plan section styles  */
-.my-plan {
-}
 .plan-container {
   display: flex;
   gap: 50px;
@@ -117,4 +115,28 @@ main {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 40px;
+}
+
+/* Banner2 style  */
+.banner2 {
+  margin: 130px 0;
+  background: url("../assets/images/watch.png") no-repeat center center/cover,
+    url("../assets/images/gradient1.png") no-repeat center center/cover;
+  background-blend-mode: multiply;
+  height: 300px;
+  display: flex;
+  align-items: center;
+}
+.banner2-container {
+  padding: 60px 0;
+  padding-left: 60px;
+}
+.banner2-title {
+  font-weight: 700;
+  font-size: 40px;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+.banner2-container button {
+  margin-top: 24px;
 }
