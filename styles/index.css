@@ -74,7 +74,7 @@ main {
   align-items: center;
   font-family: "Raleway", sans-serif;
 }
-.feature img {
+.feature > img {
   background: #dadedf;
   border-radius: 5px;
 }
@@ -90,7 +90,11 @@ main {
 .feature ul li {
   list-style: none;
   text-align: left;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
 }
 
 /* Plan section styles  */
@@ -176,4 +180,7 @@ footer {
   border: 0;
   border-radius: 7px;
   margin-bottom: 16px;
+  background-color: transparent;
+  color: #008bc2;
+  border: 2px solid white;
 }
