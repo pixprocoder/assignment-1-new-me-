@@ -140,3 +140,40 @@ main {
 .banner2-container button {
   margin-top: 24px;
 }
+
+/* Footer styles  */
+footer {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 130px 0;
+  font-family: "Montserrat", sans-serif;
+  background-color: rgb(36, 36, 36);
+  color: white;
+}
+.footer-container {
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  gap: 60px;
+}
+.footer-contact h1,
+.subscribe h1 {
+  margin-bottom: 24px;
+}
+.footer-contact p {
+  margin-bottom: 16px;
+}
+.social a {
+  margin-right: 5px;
+}
+
+.subscribe input {
+  padding: 20px;
+  outline: none;
+  font-size: 20px;
+  width: 100%;
+  border: 0;
+  border-radius: 7px;
+  margin-bottom: 16px;
+}
